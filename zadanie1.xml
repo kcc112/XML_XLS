@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="HTML.xsl"?>
 
-<document lang="PL" xmlns="https://github.com/kcc112/zadanie2.xml"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/kcc112/zadanie2.xml schema.xsd">
+<document lang="PL">
 
 	<information>
 		<creators>
