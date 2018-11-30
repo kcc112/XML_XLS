@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<document lang="PL">
+
+	<information>
+		<creators>
+			<author>Jędrzej Dobrucki</author>
+			<author>Kamil Celejewski</author>
+		</creators>
+		<last_mod date="2018-10-13"/>
+	</information>
+
+	<alcohol_wholesale>
+		<brand>Dobcel</brand>
+
+		<categories>
+			<category name="vodka" catId="c01">wódka</category>
+			<category name="white-wine" catId="c02">białe wino</category>
+			<category name="red-wine" catId="c03">czerwone wino</category>
+			<category name="cognac" catId="c04">koniak</category>
+			<category name="whisky" catId="c05">whisky</category>
+			<category name="beer" catId="c06">piwo</category>
+			<category name="absinth" catId="c07">absynt</category>
+		</categories>
+		
+		<units>
+			<unit name="pln" unitId="u01" />
+			<unit name="cl" unitId="u02" />
+			<unit name="percent" unitId="u03" />
+		</units>
+		
+		<manufacturers>
+			<manufacturer name="Mr. Jekyll" manId="m01" />
+			<manufacturer name="Bushmills" manId="m02" />
+			<manufacturer name="Marchesi de Frescobaldi" manId="m03" />
+			<manufacturer name="Egri Bikaver" manId="m04" />
+			<manufacturer name="Polmosu Siedlce" manId="m05" />
+			<manufacturer name="Wyborowa SA" manId="m06" />
+			<manufacturer name="Richarda Paterson" manId="m07" />
+			<manufacturer name="Single Malt" manId="m08" />
+			<manufacturer name="Aberfeldy" manId="m09" />
+			<manufacturer name="Aberlour" manId="m10" />
+			<manufacturer name="Van Pur" manId="m11" />
+			<manufacturer name="Hennessy" manId="m12" />
+			<manufacturer name="Paul SAPIN" manId="m13" />
+		</manufacturers>
+		
+		<products>
+			<product catId="c01" id="p01">
+				<name>Absinth</name>
+				<producent manId="m01">Mr. Jekyll</producent>
+				<price unitId="u01">79.99</price>
+				 <description>Oryginalny niemiecki absynt, owiany legendą.</description> 
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">55</strength>
+			</product>
+			<product catId="c05" id="p02">
+				<name>Bushmills Malt 10YO</name>
+				<producent manId="m02">Bushmills</producent>
+				<price unitId="u01">199.99</price>
+				 <description>Irlandzka whiskey typu single malt, dojrzewająca przez 10 lat w beczkach po bourbonie.</description> 
+				<volume unitId="u02">70</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c01" id="p03">
+				<name>Wódka Krupnik Premium</name>
+				<producent manId="m02">Krupnik</producent>
+				<price unitId="u01">25.90</price>
+				 <description>Najwyższej jakości polska wódka, otrzymywana z wyselekcjonowanych gatunków zbóż i krystalicznie czystej wody.</description> 
+				<volume unitId="u02">50</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c03" id="p04">
+				<name>Wino Castelgiocondo</name>
+				<producent manId="m03">Marchesi de Frescobaldi</producent>
+				<price unitId="u01">293.90</price>
+				 <description>Pełne dojrzałych owoców wino wypełnione po brzegi intensywnymi i bogatymi taninami.</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">12</strength>
+			</product>
+			<product catId="c03" id="p05">
+				<name>Vincze Bikaver</name>
+				<producent manId="m04">Egri Bikaver</producent>
+				<price unitId="u01">150.90</price>
+				 <description>Wino krzepkie i zdecydowane.</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">13</strength>
+			</product>
+			<product catId="c03" id="p06">
+				<name>Vincze Blauburger</name>
+				<producent manId="m04">Egri Bikaver</producent>
+				<price unitId="u01">200.80</price>
+				 <description>Wino zawiera siarczyny.</description> 
+				<volume unitId="u02">70</volume>
+				<strength unitId="u03">12</strength>
+			</product>
+			<product catId="c03" id="p07">
+				<name>Vincze Cabernet</name>
+				<producent manId="m04">Egri Bikaver</producent>
+				<price unitId="u01">50.90</price>
+				 <description>Wino krzepkie</description> 
+				<volume unitId="u02">76</volume>
+				<strength unitId="u03">13</strength>
+			</product>
+			<product catId="c03" id="p08">
+				<name>Vincze Merlot</name>
+				<producent manId="m04">Egri Bikaver</producent>
+				<price unitId="u01">50.90</price>
+				 <description>Nieco szorstki i mocno beczkowy </description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">13</strength>
+			</product>
+			<product catId="c01" id="p09">
+				<name>Diamond Standard</name>
+				<producent manId="m05">Polmosu Siedlce</producent>
+				<price unitId="u01">219.10</price>
+				 <description>Wyjątkowy charakter zwartości podkreśla butelka z 25 mm kryształem Swarovskiego.</description> 
+				<volume unitId="u02">70</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c01" id="p10">
+				<name>Chopin Potato</name>
+				<producent manId="m05">Polmosu Siedlce</producent>
+				<price unitId="u01">145</price>
+				 <description>Czterokrotna destylacja dodatkowo łagodzi odczucia</description> 
+				<volume unitId="u02">60</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c01" id="p11">
+				<name>Chopin Rye</name>
+				<producent manId="m05">Polmosu Siedlce</producent>
+				<price unitId="u01">79.50</price>
+				 <description>Wzorzec najwyższej klasy wódki żytniej</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c01" id="p12">
+				<name>Wyborowa Exquisite</name>
+				<producent manId="m06">Wyborowa SA</producent>
+				<price unitId="u01">111.90</price>
+				 <description> Łagodny smak z ledwie wyczuwalnym akcentem wanilii</description> 
+				<volume unitId="u02">60</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c01" id="p13">
+				<name>Wyborowa</name>
+				<producent manId="m06">Wyborowa SA</producent>
+				<price unitId="u01">22.99</price>
+				 <description>Najlepsza wódka</description> 
+				<volume unitId="u02">60</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c05" id="p14">
+				<name>Nomad Outland</name>
+				<producent manId="m07">Richarda Paterson</producent>
+				<price unitId="u01">165</price>
+				 <description>Łagodny smak</description> 
+				<volume unitId="u02">65</volume>
+				<strength unitId="u03">41</strength>
+			</product>
+			<product catId="c05" id="p15">
+				<name>Peat's Beas</name>
+				<producent manId="m08">Single Malt</producent>
+				<price unitId="u01">169</price>
+				 <description>Charakteryzuje się aromatami dymu torfowego</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">46</strength>
+			</product>
+			<product catId="c05" id="p16">
+				<name>Whisky Aberfeldy</name>
+				<producent manId="m09">Aberfeldy</producent>
+				<price unitId="u01">269.80</price>
+				 <description>Ulotna nuta cytrusów i miodu</description> 
+				<volume unitId="u02">60</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c05" id="p17">
+				<name>Aberlour</name>
+				<producent manId="m10">Aberlour</producent>
+				<price unitId="u01">145</price>
+				 <description>Aberlour 10-cio letnia to podstawowa whisky w portfolio destylarni ze Speyside</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c05" id="p18">
+				<name>Aberlour White</name>
+				<producent manId="m10">Aberlour</producent>
+				<price unitId="u01">195.80</price>
+				 <description>Aberlour White Oak to szkocki single malt</description> 
+				<volume unitId="u02">65</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c06" id="p19">
+				<name>Łomża Jasne</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">2.79</price>
+				 <description>Łomża Jasne to uznany ambasador marki Łomża</description> 
+				<volume unitId="u02">80</volume>
+				<strength unitId="u03">6</strength>
+			</product>
+			<product catId="c06" id="p20">
+				<name>Łomża Radler</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">2.99</price>
+				 <description>Dodatek soków z limonki i cytryny</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">2</strength>
+			</product>
+			<product catId="c06" id="p21">
+				<name>Brok Premium Lager</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">5</price>
+				 <description>To pełne smaku piwo warzone na podstawie starannie opracowanej receptury</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">5</strength>
+			</product>
+			<product catId="c06" id="p22">
+				<name>Śląskie Jasne</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">2.50</price>
+				 <description>Tradycyjne piwo w pełnym tego słowa znaczeniu. </description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">5</strength>
+			</product>
+			<product catId="c06" id="p23">
+				<name>Van Pur Premium</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">2.90</price>
+				 <description>Piwo jasne typu pilzneńskiego</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">5</strength>
+			</product>
+			<product catId="c06" id="p24">
+				<name>Cortes Extra</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">3.20</price>
+				 <description>Doskonałe do relaksu w gronie przyjaciół.</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">5</strength>
+			</product>
+			<product catId="c06" id="p25">
+				<name>Jędrzej</name>
+				<producent manId="m11">Van Pur</producent>
+				<price unitId="u01">2.99</price>
+				 <description>Polecany jako bezalkoholowy przerywnik w ciągu dnia</description> 
+				<volume unitId="u02">0</volume>
+				<strength unitId="u03">0</strength>
+			</product>
+			<product catId="c04" id="p26">
+				<name>Hennessy Paradis</name>
+				<producent manId="m12">Hennessy </producent>
+				<price unitId="u01">4500</price>
+				 <description>Elegancki i zmysłowy</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c04" id="p27">
+				<name>Hennessy X.O.</name>
+				<producent manId="m12">Hennessy </producent>
+				<price unitId="u01">979</price>
+				 <description>Posiada bogaty, mocny i właściwie wyrównany aromat</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c04" id="p28">
+				<name>Hennessy Fine</name>
+				<producent manId="m12">Hennessy </producent>
+				<price unitId="u01">209.90</price>
+				 <description>Jest bardzo dobry do spożycia w formie czystej, z lodem lub wodą mineralną</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">45</strength>
+			</product>
+			<product catId="c04" id="p29">
+				<name>Hennessy Paradis</name>
+				<producent manId="m12">Hennessy </producent>
+				<price unitId="u01">4791.90</price>
+				 <description>Ma finezyjny, elegancki aromat, delikatny zapach pieprzu i woń wiosennych kwiatów.</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">40</strength>
+			</product>
+			<product catId="c04" id="p30">
+				<name>The Three Wooly Sheep Sauvignon Blanc </name>
+				<producent manId="m13">Paul SAPIN</producent>
+				<price unitId="u01">59.99</price>
+				 <description>W tej butelce znajdziemy intensywny bukiet cytrusowy</description> 
+				<volume unitId="u02">75</volume>
+				<strength unitId="u03">12</strength>
+			</product>
+			
+		</products>	
+
+		<footer>
+			Created by Jędrzej Dobrucki and Kamil Celejewski, 2018 all rights reserverd &#169;
+		</footer>
+	
+	</alcohol_wholesale>
+	
+</document>
