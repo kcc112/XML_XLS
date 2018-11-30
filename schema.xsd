@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kcc112/zadanie2.xml" xmlns:ns="https://github.com/kcc112/zadanie2.xml" targetNamespace="https://github.com/kcc112/zadanie2.xml" elementFormDefault="qualified">
+
+<!-- definition of simple elements -->
+<xs:element name="author" type="xs:string"/>
+<xs:element name="brand" type="xs:string" fixed="Dobcel"/>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="description">
+ <xs:simpleType>
+  <xs:restriction base="xs:string">
+   <xs:maxLength value="110"/>
+  </xs:restriction>
+ </xs:simpleType>
+</xs:element>
+<xs:element name="footer" type="xs:string"/>
+
+<!-- definition of group attributes -->
+<xs:attributeGroup name="categoryGroupe">
+ <xs:attribute name="name" type="xs:string" use="required"/>
+ <xs:attribute name="catId" use="required">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:pattern value="[c][0-9][0-9]"/>
+   </xs:restriction>
+  </xs:simpleType>
+ </xs:attribute>
+</xs:attributeGroup>
+
+<xs:attributeGroup name="unitGroupe">
+ <xs:attribute name="name" type="xs:string" use="required"/>
+ <xs:attribute name="unitId" use="required">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:pattern value="[u][0-9][0-9]([0-9])*"/>
+   </xs:restriction>
+  </xs:simpleType>
+ </xs:attribute>
+</xs:attributeGroup>
+
+<xs:attributeGroup name="manufacturerGroupe">
+ <xs:attribute name="name" type="xs:string" use="required"/>
+ <xs:attribute name="manId" use="required">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:pattern value="[m][0-9][0-9]([0-9])*"/>
+   </xs:restriction>
+  </xs:simpleType>
+ </xs:attribute>
+</xs:attributeGroup>
+
+<xs:attributeGroup name="productGroupe">
+ <xs:attribute name="catId" type="xs:string" use="required"/>
+ <xs:attribute name="id" use="required">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:pattern value="[p][0-9][0-9]([0-9])*"/>
+   </xs:restriction>
+  </xs:simpleType>
+ </xs:attribute>
+</xs:attributeGroup>
+
+
+<!-- definition of complex elements -->
+
+
+<xs:complexType name="docType">
+ <xs:sequence>
+  <xs:element ref="information" maxOccurs="1"/>
+   <xs:element ref="alcohol_wholesale" maxOccurs="1"/>
+ </xs:sequence>
+ <xs:attribute name="lang">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:pattern value="PL|EN"/>
+   </xs:restriction>
+  </xs:simpleType>
+ </xs:attribute>
+</xs:complexType>
+
+    <xs:element name="document" type="docType">
+
+        <xs:key name="category_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:categories/ns:category"/>
+            <xs:field xpath="@catId"/>
+        </xs:key>
+
+        <xs:key name="unit_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:units/ns:unit"/>
+            <xs:field xpath="@unitId"/>
+        </xs:key>
+
+        <xs:key name="manufacturer_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:manufacturers/ns:manufacturer"/>
+            <xs:field xpath="@manId"/>
+        </xs:key>
+
+        <xs:key name="product_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:products/ns:product"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <xs:keyref name="category_uniqueRef" refer="category_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:products/ns:product"/>
+            <xs:field xpath="@catId"/>
+        </xs:keyref>
+
+        <xs:keyref name="manufacturer_uniqueRef" refer="manufacturer_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:products/ns:product/ns:producent"/>
+            <xs:field xpath="@manId"/>
+        </xs:keyref>
+
+        <xs:keyref name="unit_uniqueRef" refer="unit_unique">
+            <xs:selector xpath="ns:alcohol_wholesale/ns:products/ns:product/ns:*"/>
+            <xs:field xpath="@unitId"/>
+        </xs:keyref>
+
+    </xs:element>
+
+<xs:element name="information">
+  <xs:complexType>
+    <xs:sequence>
+	 <xs:element ref="creators" maxOccurs="1"/>
+	 <xs:element ref="last_mod" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="creators">
+  <xs:complexType>
+    <xs:sequence>
+	 <xs:element ref="author" maxOccurs="2"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="last_mod">
+  <xs:complexType>
+	<xs:attribute name="date" type="xs:date" default="9999-12-12"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="alcohol_wholesale">
+  <xs:complexType>
+    <xs:sequence>
+	 <xs:element ref="brand" maxOccurs="1"/>
+	 <xs:element ref="categories" maxOccurs="1"/>
+	 <xs:element ref="units" maxOccurs="1"/>
+	 <xs:element ref="manufacturers" maxOccurs="1"/>
+	 <xs:element ref="products" maxOccurs="1"/>
+	 <xs:element ref="footer" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="categories">
+  <xs:complexType>
+   <xs:choice minOccurs="0" maxOccurs="unbounded">
+	 <xs:element ref="category"/>
+	</xs:choice>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="category">
+  <xs:complexType>
+   <xs:simpleContent>
+    <xs:extension base="xs:string">
+      <xs:attributeGroup ref="categoryGroupe"/>
+     </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="units">
+  <xs:complexType>
+   <xs:choice minOccurs="0" maxOccurs="unbounded">
+	<xs:element ref="unit"/>
+   </xs:choice>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="unit">
+  <xs:complexType>
+   <xs:attributeGroup ref="unitGroupe"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="manufacturers">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+	 <xs:element ref="manufacturer"/>
+	</xs:choice>
+   </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="manufacturer">
+  <xs:complexType>
+   <xs:attributeGroup ref="manufacturerGroupe"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="products">
+  <xs:complexType>
+   <xs:choice minOccurs="0" maxOccurs="unbounded">
+	<xs:element ref="product"/>
+   </xs:choice>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="product">
+  <xs:complexType>
+	<xs:sequence>
+	 <xs:element ref="name" maxOccurs="1"/>
+	 <xs:element ref="producent" maxOccurs="1"/>
+	 <xs:element ref="price" maxOccurs="1"/>
+	 <xs:element ref="description" minOccurs="0" maxOccurs="1"/>
+	 <xs:element ref="volume" maxOccurs="1"/>
+	 <xs:element ref="strength" minOccurs="0" maxOccurs="1"/>
+	</xs:sequence>
+	<xs:attributeGroup ref="productGroupe"/>
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="producent">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="manId" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element> 
+
+<xs:element name="price">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:decimal">
+        <xs:attribute name="unitId" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element> 
+
+<xs:element name="volume">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:integer">
+        <xs:attribute name="unitId" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element> 
+
+<xs:element name="strength">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:integer">
+        <xs:attribute name="unitId" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element> 
+
+</xs:schema>
