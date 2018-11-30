@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><AlcoholWholesaleReport>
+<Product Name="Absinth" Producent="Mr. Jekyll" Volume="50" Strength="55" Category="wódka"/>
+<Product Name="Bushmills Malt 10YO" Producent="Bushmills" Volume="70" Strength="40" Category="whisky"/>
+<Product Name="Wódka Krupnik Premium" Producent="Krupnik" Volume="50" Strength="40" Category="wódka"/>
+<Product Name="Wino Castelgiocondo" Producent="Marchesi de Frescobaldi" Volume="75" Strength="12" Category="czerwone wino"/>
+<Product Name="Vincze Bikaver" Producent="Egri Bikaver" Volume="75" Strength="13" Category="czerwone wino"/>
+<Product Name="Vincze Blauburger" Producent="Egri Bikaver" Volume="70" Strength="12" Category="czerwone wino"/>
+<Product Name="Vincze Cabernet" Producent="Egri Bikaver" Volume="76" Strength="13" Category="czerwone wino"/>
+<Product Name="Vincze Merlot" Producent="Egri Bikaver" Volume="75" Strength="13" Category="czerwone wino"/>
+<Product Name="Diamond Standard" Producent="Polmosu Siedlce" Volume="70" Strength="40" Category="wódka"/>
+<Product Name="Chopin Potato" Producent="Polmosu Siedlce" Volume="60" Strength="40" Category="wódka"/>
+<Product Name="Chopin Rye" Producent="Polmosu Siedlce" Volume="75" Strength="40" Category="wódka"/>
+<Product Name="Wyborowa Exquisite" Producent="Wyborowa SA" Volume="60" Strength="40" Category="wódka"/>
+<Product Name="Wyborowa" Producent="Wyborowa SA" Volume="60" Strength="40" Category="wódka"/>
+<Product Name="Nomad Outland" Producent="Richarda Paterson" Volume="65" Strength="41" Category="whisky"/>
+<Product Name="Peat's Beas" Producent="Single Malt" Volume="75" Strength="46" Category="whisky"/>
+<Product Name="Whisky Aberfeldy" Producent="Aberfeldy" Volume="60" Strength="40" Category="whisky"/>
+<Product Name="Aberlour" Producent="Aberlour" Volume="75" Strength="40" Category="whisky"/>
+<Product Name="Aberlour White" Producent="Aberlour" Volume="65" Strength="40" Category="whisky"/>
+<Product Name="Łomża Jasne" Producent="Van Pur" Volume="80" Strength="6" Category="piwo"/>
+<Product Name="Łomża Radler" Producent="Van Pur" Volume="75" Strength="2" Category="piwo"/>
+<Product Name="Brok Premium Lager" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
+<Product Name="Śląskie Jasne" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
+<Product Name="Van Pur Premium" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
+<Product Name="Cortes Extra" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
+<Product Name="Jędrzej" Producent="Van Pur" Volume="0" Strength="0" Category="piwo"/>
+<Product Name="Hennessy Paradis" Producent="Hennessy " Volume="75" Strength="40" Category="koniak"/>
+<Product Name="Hennessy X.O." Producent="Hennessy " Volume="75" Strength="40" Category="koniak"/>
+<Product Name="Hennessy Fine" Producent="Hennessy " Volume="75" Strength="45" Category="koniak"/>
+<Product Name="Hennessy Paradis" Producent="Hennessy " Volume="75" Strength="40" Category="koniak"/>
+<Product Name="The Three Wooly Sheep Sauvignon Blanc " Producent="Paul SAPIN" Volume="75" Strength="12" Category="koniak"/>
+<Podsumowanie>
+<Manufacturers_Sum>13</Manufacturers_Sum>
+</Podsumowanie>
+</AlcoholWholesaleReport>
