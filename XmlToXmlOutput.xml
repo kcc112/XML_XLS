@@ -31,5 +31,17 @@
 <Product Name="The Three Wooly Sheep Sauvignon Blanc " Producent="Paul SAPIN" Volume="75" Strength="12" Category="koniak"/>
 <Podsumowanie>
 <Manufacturers_Sum>13</Manufacturers_Sum>
+<Categories_Sum>7</Categories_Sum>
+<Units_Sum>3</Units_Sum>
+<Products_Sum>30</Products_Sum>
+<Manufacturers_Sum>13</Manufacturers_Sum>
+<VodkaNumber>7</VodkaNumber>
+<White-WineNumber>0</White-WineNumber>
+<Red-Wine>5</Red-Wine>
+<Cognac>5</Cognac>
+<Whisky>6</Whisky>
+<Beer>7</Beer>
+<Absinth>0</Absinth>
+<RaportDateGeneration>2018-11-30T23:48:54+01:00</RaportDateGeneration>
 </Podsumowanie>
 </AlcoholWholesaleReport>

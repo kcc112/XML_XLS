@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:date="http://exslt.org/dates-and-times"
+                extension-element-prefixes="date">
     <xsl:output method="xml" version="1.0" encoding="UTF-8"  indent="yes"/>
 
     <xsl:template match="/">
@@ -10,6 +11,42 @@
             <xsl:element name="Podsumowanie">
                 <xsl:element name="Manufacturers_Sum">
                     <xsl:value-of select="count(document/alcohol_wholesale/manufacturers/manufacturer)"/>
+                </xsl:element>
+                <xsl:element name="Categories_Sum">
+                    <xsl:value-of select="count(document/alcohol_wholesale/categories/category)"/>
+                </xsl:element>
+                <xsl:element name="Units_Sum">
+                    <xsl:value-of select="count(document/alcohol_wholesale/units/unit)"/>
+                </xsl:element>
+                <xsl:element name="Products_Sum">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product)"/>
+                </xsl:element>
+                <xsl:element name="Manufacturers_Sum">
+                    <xsl:value-of select="count(document/alcohol_wholesale/manufacturers/manufacturer)"/>
+                </xsl:element>
+                <xsl:element name="VodkaNumber">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c01'])"/>
+                </xsl:element>
+                <xsl:element name="White-WineNumber">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c02'])"/>
+                </xsl:element>
+                <xsl:element name="Red-Wine">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c03'])"/>
+                </xsl:element>
+                <xsl:element name="Cognac">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c04'])"/>
+                </xsl:element>
+                <xsl:element name="Whisky">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c05'])"/>
+                </xsl:element>
+                <xsl:element name="Beer">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c06'])"/>
+                </xsl:element>
+                <xsl:element name="Absinth">
+                    <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c07'])"/>
+                </xsl:element>
+                <xsl:element name="RaportDateGeneration">
+                    <xsl:value-of select="date:date-time()"/>
                 </xsl:element>
             </xsl:element>
 
