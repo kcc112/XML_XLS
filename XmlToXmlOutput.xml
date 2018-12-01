@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><AlcoholWholesaleReport>
-<Product Name="Absinth" Producent="Mr. Jekyll" Volume="50" Strength="55" Category="wódka"/>
-<Product Name="Bushmills Malt 10YO" Producent="Bushmills" Volume="70" Strength="40" Category="whisky"/>
-<Product Name="Wódka Krupnik Premium" Producent="Krupnik" Volume="50" Strength="40" Category="wódka"/>
-<Product Name="Wino Castelgiocondo" Producent="Marchesi de Frescobaldi" Volume="75" Strength="12" Category="czerwone wino"/>
-<Product Name="Vincze Bikaver" Producent="Egri Bikaver" Volume="75" Strength="13" Category="czerwone wino"/>
-<Product Name="Vincze Blauburger" Producent="Egri Bikaver" Volume="70" Strength="12" Category="czerwone wino"/>
-<Product Name="Vincze Cabernet" Producent="Egri Bikaver" Volume="76" Strength="13" Category="czerwone wino"/>
-<Product Name="Vincze Merlot" Producent="Egri Bikaver" Volume="75" Strength="13" Category="czerwone wino"/>
-<Product Name="Diamond Standard" Producent="Polmosu Siedlce" Volume="70" Strength="40" Category="wódka"/>
-<Product Name="Chopin Potato" Producent="Polmosu Siedlce" Volume="60" Strength="40" Category="wódka"/>
-<Product Name="Chopin Rye" Producent="Polmosu Siedlce" Volume="75" Strength="40" Category="wódka"/>
-<Product Name="Wyborowa Exquisite" Producent="Wyborowa SA" Volume="60" Strength="40" Category="wódka"/>
-<Product Name="Wyborowa" Producent="Wyborowa SA" Volume="60" Strength="40" Category="wódka"/>
-<Product Name="Nomad Outland" Producent="Richarda Paterson" Volume="65" Strength="41" Category="whisky"/>
-<Product Name="Peat's Beas" Producent="Single Malt" Volume="75" Strength="46" Category="whisky"/>
-<Product Name="Whisky Aberfeldy" Producent="Aberfeldy" Volume="60" Strength="40" Category="whisky"/>
-<Product Name="Aberlour" Producent="Aberlour" Volume="75" Strength="40" Category="whisky"/>
-<Product Name="Aberlour White" Producent="Aberlour" Volume="65" Strength="40" Category="whisky"/>
-<Product Name="Łomża Jasne" Producent="Van Pur" Volume="80" Strength="6" Category="piwo"/>
-<Product Name="Łomża Radler" Producent="Van Pur" Volume="75" Strength="2" Category="piwo"/>
-<Product Name="Brok Premium Lager" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
-<Product Name="Śląskie Jasne" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
-<Product Name="Van Pur Premium" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
-<Product Name="Cortes Extra" Producent="Van Pur" Volume="75" Strength="5" Category="piwo"/>
-<Product Name="Jędrzej" Producent="Van Pur" Volume="0" Strength="0" Category="piwo"/>
-<Product Name="Hennessy Paradis" Producent="Hennessy " Volume="75" Strength="40" Category="koniak"/>
-<Product Name="Hennessy X.O." Producent="Hennessy " Volume="75" Strength="40" Category="koniak"/>
-<Product Name="Hennessy Fine" Producent="Hennessy " Volume="75" Strength="45" Category="koniak"/>
-<Product Name="Hennessy Paradis" Producent="Hennessy " Volume="75" Strength="40" Category="koniak"/>
-<Product Name="The Three Wooly Sheep Sauvignon Blanc " Producent="Paul SAPIN" Volume="75" Strength="12" Category="koniak"/>
+<Product Name="Absinth" Category="vodka" Producent="Mr. Jekyll" Volume="50cl" Strength="55 percent" Price="79.99 pln"/>
+<Product Name="Bushmills Malt 10YO" Category="whisky" Producent="Bushmills" Volume="70cl" Strength="40 percent" Price="199.99 pln"/>
+<Product Name="Wódka Krupnik Premium" Category="vodka" Producent="Bushmills" Volume="50cl" Strength="40 percent" Price="25.90 pln"/>
+<Product Name="Wino Castelgiocondo" Category="red-wine" Producent="Marchesi de Frescobaldi" Volume="75cl" Strength="12 percent" Price="293.90 pln"/>
+<Product Name="Vincze Bikaver" Category="red-wine" Producent="Egri Bikaver" Volume="75cl" Strength="13 percent" Price="150.90 pln"/>
+<Product Name="Vincze Blauburger" Category="red-wine" Producent="Egri Bikaver" Volume="70cl" Strength="12 percent" Price="200.80 pln"/>
+<Product Name="Vincze Cabernet" Category="red-wine" Producent="Egri Bikaver" Volume="76cl" Strength="13 percent" Price="50.90 pln"/>
+<Product Name="Vincze Merlot" Category="red-wine" Producent="Egri Bikaver" Volume="75cl" Strength="13 percent" Price="50.90 pln"/>
+<Product Name="Diamond Standard" Category="vodka" Producent="Polmosu Siedlce" Volume="70cl" Strength="40 percent" Price="219.10 pln"/>
+<Product Name="Chopin Potato" Category="vodka" Producent="Polmosu Siedlce" Volume="60cl" Strength="40 percent" Price="145 pln"/>
+<Product Name="Chopin Rye" Category="vodka" Producent="Polmosu Siedlce" Volume="75cl" Strength="40 percent" Price="79.50 pln"/>
+<Product Name="Wyborowa Exquisite" Category="vodka" Producent="Wyborowa SA" Volume="60cl" Strength="40 percent" Price="111.90 pln"/>
+<Product Name="Wyborowa" Category="vodka" Producent="Wyborowa SA" Volume="60cl" Strength="40 percent" Price="22.99 pln"/>
+<Product Name="Nomad Outland" Category="whisky" Producent="Richarda Paterson" Volume="65cl" Strength="41 percent" Price="165 pln"/>
+<Product Name="Peat's Beas" Category="whisky" Producent="Single Malt" Volume="75cl" Strength="46 percent" Price="169 pln"/>
+<Product Name="Whisky Aberfeldy" Category="whisky" Producent="Aberfeldy" Volume="60cl" Strength="40 percent" Price="269.80 pln"/>
+<Product Name="Aberlour" Category="whisky" Producent="Aberlour" Volume="75cl" Strength="40 percent" Price="145 pln"/>
+<Product Name="Aberlour White" Category="whisky" Producent="Aberlour" Volume="65cl" Strength="40 percent" Price="195.80 pln"/>
+<Product Name="Łomża Jasne" Category="beer" Producent="Van Pur" Volume="80cl" Strength="6 percent" Price="2.79 pln"/>
+<Product Name="Łomża Radler" Category="beer" Producent="Van Pur" Volume="75cl" Strength="2 percent" Price="2.99 pln"/>
+<Product Name="Brok Premium Lager" Category="beer" Producent="Van Pur" Volume="75cl" Strength="5 percent" Price="5 pln"/>
+<Product Name="Śląskie Jasne" Category="beer" Producent="Van Pur" Volume="75cl" Strength="5 percent" Price="2.50 pln"/>
+<Product Name="Van Pur Premium" Category="beer" Producent="Van Pur" Volume="75cl" Strength="5 percent" Price="2.90 pln"/>
+<Product Name="Cortes Extra" Category="beer" Producent="Van Pur" Volume="75cl" Strength="5 percent" Price="3.20 pln"/>
+<Product Name="Jędrzej" Category="beer" Producent="Van Pur" Volume="0cl" Strength="0 percent" Price="2.99 pln"/>
+<Product Name="Hennessy Paradis" Category="cognac" Producent="Hennessy" Volume="75cl" Strength="40 percent" Price="4500 pln"/>
+<Product Name="Hennessy X.O." Category="cognac" Producent="Hennessy" Volume="75cl" Strength="40 percent" Price="979 pln"/>
+<Product Name="Hennessy Fine" Category="cognac" Producent="Hennessy" Volume="75cl" Strength="45 percent" Price="209.90 pln"/>
+<Product Name="Hennessy Paradis" Category="cognac" Producent="Hennessy" Volume="75cl" Strength="40 percent" Price="4791.90 pln"/>
+<Product Name="The Three Wooly Sheep Sauvignon Blanc " Category="cognac" Producent="Paul SAPIN" Volume="75cl" Strength="12 percent" Price="59.99 pln"/>
 <Podsumowanie>
 <Manufacturers_Sum>13</Manufacturers_Sum>
 <Categories_Sum>7</Categories_Sum>
@@ -50,6 +50,6 @@
 <Average_Whisky_Price>190.77</Average_Whisky_Price>
 <Average_Beer_Price>3.2</Average_Beer_Price>
 <Average_Absinth_Price>0</Average_Absinth_Price>
-<RaportDateGeneration>2018-12-01T13:31:03+01:00</RaportDateGeneration>
+<RaportDateGeneration>2018-12-01T17:39:24+01:00</RaportDateGeneration>
 </Podsumowanie>
 </AlcoholWholesaleReport>

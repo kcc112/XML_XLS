@@ -131,40 +131,26 @@
                 <xsl:attribute name="Name">
                     <xsl:value-of select="name"/>
                 </xsl:attribute>
+                <xsl:attribute name="Category">
+                    <xsl:variable name="catId" select="@catId" />
+                    <xsl:value-of select="ancestor::*/categories/category[@catId = $catId]/@name" />
+                </xsl:attribute>
                 <xsl:attribute name="Producent">
-                    <xsl:value-of select="producent"/>
+                    <xsl:variable name="manId" select="producent/@manId" />
+                    <xsl:value-of select="ancestor::*/manufacturers/manufacturer[@manId = $manId]/@name" />
                 </xsl:attribute>
                 <xsl:attribute name="Volume">
-                    <xsl:value-of select="volume"/>
+                    <xsl:variable name="unitId" select="volume/@unitId" />
+                    <xsl:value-of select="concat(volume,'',ancestor::*/units/unit[@unitId = $unitId]/@name)"/>
                 </xsl:attribute>
                 <xsl:attribute name="Strength">
-                    <xsl:value-of select="strength"/>
+                    <xsl:variable name="unitId" select="strength/@unitId" />
+                    <xsl:value-of select="concat(strength,' ',ancestor::*/units/unit[@unitId = $unitId]/@name)"/>
                 </xsl:attribute>
-
-                <xsl:choose>
-                    <xsl:when test="string(@catId) = 'c01'">
-                        <xsl:attribute name="Category">wódka</xsl:attribute>
-                    </xsl:when>
-                    <xsl:when test="string(@catId) = 'c02'">
-                        <xsl:attribute name="Category">białe wino</xsl:attribute>
-                    </xsl:when>
-                    <xsl:when test="string(@catId) = 'c03'">
-                        <xsl:attribute name="Category">czerwone wino</xsl:attribute>
-                    </xsl:when>
-                    <xsl:when test="string(@catId) = 'c04'">
-                        <xsl:attribute name="Category">koniak</xsl:attribute>
-                    </xsl:when>
-                    <xsl:when test="string(@catId) = 'c05'">
-                        <xsl:attribute name="Category">whisky</xsl:attribute>
-                    </xsl:when>
-                    <xsl:when test="string(@catId) = 'c06'">
-                        <xsl:attribute name="Category">piwo</xsl:attribute>
-                    </xsl:when>
-                    <xsl:when test="string(@catId) = 'c07'">
-                        <xsl:attribute name="Category">absynt</xsl:attribute>
-                    </xsl:when>
-                </xsl:choose>
-
+                <xsl:attribute name="Price">
+                    <xsl:variable name="unitId" select="price/@unitId" />
+                    <xsl:value-of select="concat(price,' ',ancestor::*/units/unit[@unitId = $unitId]/@name)"/>
+                </xsl:attribute>
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
