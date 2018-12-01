@@ -5,7 +5,6 @@
 
     <xsl:template match="/">
         <xsl:element name="AlcoholWholesaleReport">
-
             <xsl:apply-templates select="document/alcohol_wholesale/products"/>
 
             <xsl:element name="Podsumowanie">
@@ -45,6 +44,79 @@
                 <xsl:element name="Absinth">
                     <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c07'])"/>
                 </xsl:element>
+                <xsl:element name="Average_Alcohol_Price">
+                    <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product/price) div count(document/alcohol_wholesale/products/product) * 10) div 10"/>
+                </xsl:element>
+                <xsl:element name="Average_Vodka_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c01'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c01']/price) div count(document/alcohol_wholesale/products/product[@catId='c01']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+                <xsl:element name="Average_White_Wine_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c02'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c02']/price) div count(document/alcohol_wholesale/products/product[@catId='c02']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+                <xsl:element name="Average_Red_Wine_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c03'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c03']/price) div count(document/alcohol_wholesale/products/product[@catId='c03']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+                <xsl:element name="Average_Cognac_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c04'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c04']/price) div count(document/alcohol_wholesale/products/product[@catId='c04']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+                <xsl:element name="Average_Whisky_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c05'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c05']/price) div count(document/alcohol_wholesale/products/product[@catId='c05']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+                <xsl:element name="Average_Beer_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c06'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c06']/price) div count(document/alcohol_wholesale/products/product[@catId='c06']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+                <xsl:element name="Average_Absinth_Price">
+                    <xsl:choose>
+                        <xsl:when test="count(document/alcohol_wholesale/products/product[@catId='c07'])!=0">
+                            <xsl:value-of select="round(sum(document/alcohol_wholesale/products/product[@catId='c07']/price) div count(document/alcohol_wholesale/products/product[@catId='c07']) * 100) div 100"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="0"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
                 <xsl:element name="RaportDateGeneration">
                     <xsl:value-of select="date:date-time()"/>
                 </xsl:element>
@@ -68,6 +140,7 @@
                 <xsl:attribute name="Strength">
                     <xsl:value-of select="strength"/>
                 </xsl:attribute>
+
                 <xsl:choose>
                     <xsl:when test="string(@catId) = 'c01'">
                         <xsl:attribute name="Category">wódka</xsl:attribute>
@@ -91,6 +164,7 @@
                         <xsl:attribute name="Category">absynt</xsl:attribute>
                     </xsl:when>
                 </xsl:choose>
+
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
