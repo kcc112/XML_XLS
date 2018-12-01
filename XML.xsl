@@ -20,9 +20,6 @@
                 <xsl:element name="Products_Sum">
                     <xsl:value-of select="count(document/alcohol_wholesale/products/product)"/>
                 </xsl:element>
-                <xsl:element name="Manufacturers_Sum">
-                    <xsl:value-of select="count(document/alcohol_wholesale/manufacturers/manufacturer)"/>
-                </xsl:element>
                 <xsl:element name="VodkaNumber">
                     <xsl:value-of select="count(document/alcohol_wholesale/products/product[@catId='c01'])"/>
                 </xsl:element>

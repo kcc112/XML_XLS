@@ -34,7 +34,6 @@
 <Categories_Sum>7</Categories_Sum>
 <Units_Sum>3</Units_Sum>
 <Products_Sum>30</Products_Sum>
-<Manufacturers_Sum>13</Manufacturers_Sum>
 <VodkaNumber>7</VodkaNumber>
 <White-WineNumber>0</White-WineNumber>
 <Red-Wine>5</Red-Wine>
@@ -50,6 +49,6 @@
 <Average_Whisky_Price>190.77</Average_Whisky_Price>
 <Average_Beer_Price>3.2</Average_Beer_Price>
 <Average_Absinth_Price>0</Average_Absinth_Price>
-<RaportDateGeneration>2018-12-01T17:39:24+01:00</RaportDateGeneration>
+<RaportDateGeneration>2018-12-01T18:57:43+01:00</RaportDateGeneration>
 </Podsumowanie>
 </AlcoholWholesaleReport>
