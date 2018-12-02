@@ -115,7 +115,7 @@
                     </xsl:choose>
                 </xsl:element>
                 <xsl:element name="RaportDateGeneration">
-                    <xsl:value-of select="date:date-time()"/>
+                    <xsl:value-of select="format-dateTime(current-dateTime(),'[D01]-[M01]-[Y0001]')"/>
                 </xsl:element>
             </xsl:element>
 
