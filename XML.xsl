@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:date="http://exslt.org/dates-and-times"
-                extension-element-prefixes="date">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" version="1.0" encoding="UTF-8"  indent="yes"/>
 
     <xsl:template match="/">
         <xsl:element name="AlcoholWholesaleReport">
             <xsl:apply-templates select="document/alcohol_wholesale/products"/>
+            <xsl:apply-templates select="document/information/creators"/>
 
             <xsl:element name="Podsumowanie">
                 <xsl:element name="Manufacturers_Sum">
@@ -118,7 +118,6 @@
                     <xsl:value-of select="format-dateTime(current-dateTime(),'[D01]-[M01]-[Y0001]')"/>
                 </xsl:element>
             </xsl:element>
-
         </xsl:element>
     </xsl:template>
 
@@ -150,6 +149,16 @@
                 </xsl:attribute>
             </xsl:element>
         </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="/document/information/creators">
+        <xsl:element name="Authors">
+            <xsl:for-each select="author">
+                <xsl:element name="Author">
+                    <xsl:value-of select="."/>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:element>
     </xsl:template>
 
 </xsl:stylesheet>

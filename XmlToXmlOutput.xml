@@ -102,6 +102,10 @@
             Volume="75cl"
             Strength="12 percent"
             Price="59.99 pln"/>
+   <Authors>
+      <Author>Jędrzej Dobrucki</Author>
+      <Author>Kamil Celejewski</Author>
+   </Authors>
    <Podsumowanie>
       <Manufacturers_Sum>13</Manufacturers_Sum>
       <Categories_Sum>7</Categories_Sum>
@@ -122,6 +126,6 @@
       <Average_Whisky_Price>190.77</Average_Whisky_Price>
       <Average_Beer_Price>3.2</Average_Beer_Price>
       <Average_Absinth_Price>0</Average_Absinth_Price>
-      <RaportDateGeneration>02-12-2018</RaportDateGeneration>
+      <RaportDateGeneration>03-12-2018</RaportDateGeneration>
    </Podsumowanie>
 </AlcoholWholesaleReport>
