@@ -94,6 +94,13 @@
                         <td><xsl:value-of select="AlcoholWholesaleReport/Podsumowanie/Average_Absinth_Price"/></td>
                     </tr>
                 </table>
+
+                <table border="2">
+                    <caption><b>Creation Date</b></caption>
+                    <tr>
+                        <td><xsl:value-of select="AlcoholWholesaleReport/Podsumowanie/RaportDateGeneration"/></td>
+                    </tr>
+                </table>
             </body>
         </html>
     </xsl:template>
