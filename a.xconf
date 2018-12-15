@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Arial Unicode only -->
+<fop version="1.0">
+
+  <!-- Base URL for resolving relative URLs -->
+  <base>.</base>
+  
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font embed-url="Arial.ttf">
+          <font-triplet name="Arial" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="ArialBold.ttf">
+          <font-triplet name="Arial" style="normal" weight="bold"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+  </fop>
