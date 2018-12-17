@@ -51,8 +51,7 @@
    <Product Name="Peat's Beas" Category="whisky" Producent="Single Malt" Volume="75cl"
             Strength="46 percent"
             Price="169 pln"/>
-   <Product Name="Sheep Sauvignon Blanc " Category="cognac"
-            Producent="Paul SAPIN"
+   <Product Name="Sheep Sauvignon Blanc " Category="cognac" Producent="Paul SAPIN"
             Volume="75cl"
             Strength="12 percent"
             Price="59.99 pln"/>
@@ -126,6 +125,6 @@
       <Average_Whisky_Price>190.77</Average_Whisky_Price>
       <Average_Beer_Price>3.2</Average_Beer_Price>
       <Average_Absinth_Price>0</Average_Absinth_Price>
-      <RaportDateGeneration>16-12-2018</RaportDateGeneration>
+      <RaportDateGeneration>17-12-2018</RaportDateGeneration>
    </Podsumowanie>
 </AlcoholWholesaleReport>
