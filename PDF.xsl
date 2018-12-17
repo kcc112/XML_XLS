@@ -112,7 +112,7 @@
 
                     <fo:block  font-family="Arial" font-weight="bold" font-size="0.5cm" margin-top="1cm" margin-bottom="0.2cm">Average Price: </fo:block>
                     <fo:table font-family="Arial" table-layout="fixed" width="90%" text-align="center">
-                        <fo:table-header>
+                        <fo:table-header >
                             <fo:table-row font-family="Arial" font-weight="bold" font-size="4mm" >
                                 <fo:table-cell>
                                     <fo:block  border-color="black" border-style="solid solid solid solid" border-width="0.3mm" >Alcohol Price</fo:block>
