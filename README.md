@@ -1,4 +1,4 @@
-# XML_XSLS<br />
+# XML_XSLT<br />
 Zadanie 3 - Transformacje z użyciem XSLT, cz.1 (XML, XHTML)<br />
 Zadanie 4 - Transformacje z użyciem XSLT, cz.2 (TXT, PDF, SVG)<br />
 <br />
