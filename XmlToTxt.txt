@@ -1,35 +1,35 @@
 | Name                                   | Category       | Producent               | Volume  | Strength    | Price          |
 ------------------------------------------------------------------------------------------------------------------------------
-| Aberlour                               | whisky         | Aberlour                | 75cl    | 40 percent  | 145 pln        |
-| Aberlour White                         | whisky         | Aberlour                | 65cl    | 40 percent  | 195.80 pln     |
-| Absinth                                | vodka          | Mr. Jekyll              | 50cl    | 55 percent  | 79.99 pln      |
-| Brok Premium Lager                     | beer           | Van Pur                 | 75cl    | 5 percent   | 5 pln          |
-| Bushmills Malt 10YO                    | whisky         | Bushmills               | 70cl    | 40 percent  | 199.99 pln     |
-| Chopin Potato                          | vodka          | Polmosu Siedlce         | 60cl    | 40 percent  | 145 pln        |
-| Chopin Rye                             | vodka          | Polmosu Siedlce         | 75cl    | 40 percent  | 79.50 pln      |
-| Cortes Extra                           | beer           | Van Pur                 | 75cl    | 5 percent   | 3.20 pln       |
-| Diamond Standard                       | vodka          | Polmosu Siedlce         | 70cl    | 40 percent  | 219.10 pln     |
-| Hennessy Fine                          | cognac         | Hennessy                | 75cl    | 45 percent  | 209.90 pln     |
-| Hennessy Paradis                       | cognac         | Hennessy                | 75cl    | 40 percent  | 4500 pln       |
-| Hennessy Paradis                       | cognac         | Hennessy                | 75cl    | 40 percent  | 4791.90 pln    |
-| Hennessy X.O.                          | cognac         | Hennessy                | 75cl    | 40 percent  | 979 pln        |
-| Jędrzej                                | beer           | Van Pur                 | 0cl     | 0 percent   | 2.99 pln       |
-| Nomad Outland                          | whisky         | Richarda Paterson       | 65cl    | 41 percent  | 165 pln        |
-| Peat's Beas                            | whisky         | Single Malt             | 75cl    | 46 percent  | 169 pln        |
-| Sheep Sauvignon Blanc                  | cognac         | Paul SAPIN              | 75cl    | 12 percent  | 59.99 pln      |
-| Van Pur Premium                        | beer           | Van Pur                 | 75cl    | 5 percent   | 2.90 pln       |
-| Vincze Bikaver                         | red-wine       | Egri Bikaver            | 75cl    | 13 percent  | 150.90 pln     |
-| Vincze Blauburger                      | red-wine       | Egri Bikaver            | 70cl    | 12 percent  | 200.80 pln     |
-| Vincze Cabernet                        | red-wine       | Egri Bikaver            | 76cl    | 13 percent  | 50.90 pln      |
-| Vincze Merlot                          | red-wine       | Egri Bikaver            | 75cl    | 13 percent  | 50.90 pln      |
-| Whisky Aberfeldy                       | whisky         | Aberfeldy               | 60cl    | 40 percent  | 269.80 pln     |
-| Wino Castelgiocondo                    | red-wine       | Marchesi de Frescobaldi | 75cl    | 12 percent  | 293.90 pln     |
-| Wyborowa                               | vodka          | Wyborowa SA             | 60cl    | 40 percent  | 22.99 pln      |
-| Wyborowa Exquisite                     | vodka          | Wyborowa SA             | 60cl    | 40 percent  | 111.90 pln     |
-| Wódka Krupnik Premium                  | vodka          | Bushmills               | 50cl    | 40 percent  | 25.90 pln      |
-| Łomża Jasne                            | beer           | Van Pur                 | 80cl    | 6 percent   | 2.79 pln       |
-| Łomża Radler                           | beer           | Van Pur                 | 75cl    | 2 percent   | 2.99 pln       |
-| Śląskie Jasne                          | beer           | Van Pur                 | 75cl    | 5 percent   | 2.50 pln       |
+| Aberlour                               | whisky         | Aberlour                | 75cl    | 40 percent  | 145            |
+| Aberlour White                         | whisky         | Aberlour                | 65cl    | 40 percent  | 195.80         |
+| Absinth                                | vodka          | Mr. Jekyll              | 50cl    | 55 percent  | 79.99          |
+| Brok Premium Lager                     | beer           | Van Pur                 | 75cl    | 5 percent   | 5              |
+| Bushmills Malt 10YO                    | whisky         | Bushmills               | 70cl    | 40 percent  | 199.99         |
+| Chopin Potato                          | vodka          | Polmosu Siedlce         | 60cl    | 40 percent  | 145            |
+| Chopin Rye                             | vodka          | Polmosu Siedlce         | 75cl    | 40 percent  | 79.50          |
+| Cortes Extra                           | beer           | Van Pur                 | 75cl    | 5 percent   | 3.20           |
+| Diamond Standard                       | vodka          | Polmosu Siedlce         | 70cl    | 40 percent  | 219.10         |
+| Hennessy Fine                          | cognac         | Hennessy                | 75cl    | 45 percent  | 209.90         |
+| Hennessy Paradis                       | cognac         | Hennessy                | 75cl    | 40 percent  | 4500           |
+| Hennessy Paradis                       | cognac         | Hennessy                | 75cl    | 40 percent  | 4791.90        |
+| Hennessy X.O.                          | cognac         | Hennessy                | 75cl    | 40 percent  | 979            |
+| Jędrzej                                | beer           | Van Pur                 | 0cl     | 0 percent   | 2.99           |
+| Nomad Outland                          | whisky         | Richarda Paterson       | 65cl    | 41 percent  | 165            |
+| Peat's Beas                            | whisky         | Single Malt             | 75cl    | 46 percent  | 169            |
+| Sheep Sauvignon Blanc                  | cognac         | Paul SAPIN              | 75cl    | 12 percent  | 59.99          |
+| Van Pur Premium                        | beer           | Van Pur                 | 75cl    | 5 percent   | 2.90           |
+| Vincze Bikaver                         | red-wine       | Egri Bikaver            | 75cl    | 13 percent  | 150.90         |
+| Vincze Blauburger                      | red-wine       | Egri Bikaver            | 70cl    | 12 percent  | 200.80         |
+| Vincze Cabernet                        | red-wine       | Egri Bikaver            | 76cl    | 13 percent  | 50.90          |
+| Vincze Merlot                          | red-wine       | Egri Bikaver            | 75cl    | 13 percent  | 50.90          |
+| Whisky Aberfeldy                       | whisky         | Aberfeldy               | 60cl    | 40 percent  | 269.80         |
+| Wino Castelgiocondo                    | red-wine       | Marchesi de Frescobaldi | 75cl    | 12 percent  | 293.90         |
+| Wyborowa                               | vodka          | Wyborowa SA             | 60cl    | 40 percent  | 22.99          |
+| Wyborowa Exquisite                     | vodka          | Wyborowa SA             | 60cl    | 40 percent  | 111.90         |
+| Wódka Krupnik Premium                  | vodka          | Bushmills               | 50cl    | 40 percent  | 25.90          |
+| Łomża Jasne                            | beer           | Van Pur                 | 80cl    | 6 percent   | 2.79           |
+| Łomża Radler                           | beer           | Van Pur                 | 75cl    | 2 percent   | 2.99           |
+| Śląskie Jasne                          | beer           | Van Pur                 | 75cl    | 5 percent   | 2.50           |
 
 | Elements Summary        |
 ---------------------------
@@ -57,4 +57,4 @@
 | Average Beer Price       | 3.2     |
 | Average Absinth Price    | 0       |
 
-DATE: 17-12-2018
+DATE: 18-12-2018

@@ -2,105 +2,105 @@
 <AlcoholWholesaleReport>
    <Product Name="Aberlour" Category="whisky" Producent="Aberlour" Volume="75cl"
             Strength="40 percent"
-            Price="145 pln"/>
+            Price="145"/>
    <Product Name="Aberlour White" Category="whisky" Producent="Aberlour" Volume="65cl"
             Strength="40 percent"
-            Price="195.80 pln"/>
+            Price="195.80"/>
    <Product Name="Absinth" Category="vodka" Producent="Mr. Jekyll" Volume="50cl"
             Strength="55 percent"
-            Price="79.99 pln"/>
+            Price="79.99"/>
    <Product Name="Brok Premium Lager" Category="beer" Producent="Van Pur" Volume="75cl"
             Strength="5 percent"
-            Price="5 pln"/>
+            Price="5"/>
    <Product Name="Bushmills Malt 10YO" Category="whisky" Producent="Bushmills"
             Volume="70cl"
             Strength="40 percent"
-            Price="199.99 pln"/>
+            Price="199.99"/>
    <Product Name="Chopin Potato" Category="vodka" Producent="Polmosu Siedlce" Volume="60cl"
             Strength="40 percent"
-            Price="145 pln"/>
+            Price="145"/>
    <Product Name="Chopin Rye" Category="vodka" Producent="Polmosu Siedlce" Volume="75cl"
             Strength="40 percent"
-            Price="79.50 pln"/>
+            Price="79.50"/>
    <Product Name="Cortes Extra" Category="beer" Producent="Van Pur" Volume="75cl"
             Strength="5 percent"
-            Price="3.20 pln"/>
+            Price="3.20"/>
    <Product Name="Diamond Standard" Category="vodka" Producent="Polmosu Siedlce"
             Volume="70cl"
             Strength="40 percent"
-            Price="219.10 pln"/>
+            Price="219.10"/>
    <Product Name="Hennessy Fine" Category="cognac" Producent="Hennessy" Volume="75cl"
             Strength="45 percent"
-            Price="209.90 pln"/>
+            Price="209.90"/>
    <Product Name="Hennessy Paradis" Category="cognac" Producent="Hennessy" Volume="75cl"
             Strength="40 percent"
-            Price="4500 pln"/>
+            Price="4500"/>
    <Product Name="Hennessy Paradis" Category="cognac" Producent="Hennessy" Volume="75cl"
             Strength="40 percent"
-            Price="4791.90 pln"/>
+            Price="4791.90"/>
    <Product Name="Hennessy X.O." Category="cognac" Producent="Hennessy" Volume="75cl"
             Strength="40 percent"
-            Price="979 pln"/>
+            Price="979"/>
    <Product Name="Jędrzej" Category="beer" Producent="Van Pur" Volume="0cl"
             Strength="0 percent"
-            Price="2.99 pln"/>
+            Price="2.99"/>
    <Product Name="Nomad Outland" Category="whisky" Producent="Richarda Paterson"
             Volume="65cl"
             Strength="41 percent"
-            Price="165 pln"/>
+            Price="165"/>
    <Product Name="Peat's Beas" Category="whisky" Producent="Single Malt" Volume="75cl"
             Strength="46 percent"
-            Price="169 pln"/>
+            Price="169"/>
    <Product Name="Sheep Sauvignon Blanc " Category="cognac" Producent="Paul SAPIN"
             Volume="75cl"
             Strength="12 percent"
-            Price="59.99 pln"/>
+            Price="59.99"/>
    <Product Name="Van Pur Premium" Category="beer" Producent="Van Pur" Volume="75cl"
             Strength="5 percent"
-            Price="2.90 pln"/>
+            Price="2.90"/>
    <Product Name="Vincze Bikaver" Category="red-wine" Producent="Egri Bikaver"
             Volume="75cl"
             Strength="13 percent"
-            Price="150.90 pln"/>
+            Price="150.90"/>
    <Product Name="Vincze Blauburger" Category="red-wine" Producent="Egri Bikaver"
             Volume="70cl"
             Strength="12 percent"
-            Price="200.80 pln"/>
+            Price="200.80"/>
    <Product Name="Vincze Cabernet" Category="red-wine" Producent="Egri Bikaver"
             Volume="76cl"
             Strength="13 percent"
-            Price="50.90 pln"/>
+            Price="50.90"/>
    <Product Name="Vincze Merlot" Category="red-wine" Producent="Egri Bikaver" Volume="75cl"
             Strength="13 percent"
-            Price="50.90 pln"/>
+            Price="50.90"/>
    <Product Name="Whisky Aberfeldy" Category="whisky" Producent="Aberfeldy" Volume="60cl"
             Strength="40 percent"
-            Price="269.80 pln"/>
+            Price="269.80"/>
    <Product Name="Wino Castelgiocondo" Category="red-wine"
             Producent="Marchesi de Frescobaldi"
             Volume="75cl"
             Strength="12 percent"
-            Price="293.90 pln"/>
+            Price="293.90"/>
    <Product Name="Wyborowa" Category="vodka" Producent="Wyborowa SA" Volume="60cl"
             Strength="40 percent"
-            Price="22.99 pln"/>
+            Price="22.99"/>
    <Product Name="Wyborowa Exquisite" Category="vodka" Producent="Wyborowa SA"
             Volume="60cl"
             Strength="40 percent"
-            Price="111.90 pln"/>
+            Price="111.90"/>
    <Product Name="Wódka Krupnik Premium" Category="vodka" Producent="Bushmills"
             Volume="50cl"
             Strength="40 percent"
-            Price="25.90 pln"/>
+            Price="25.90"/>
    <Product Name="Łomża Jasne" Category="beer" Producent="Van Pur" Volume="80cl"
             Strength="6 percent"
-            Price="2.79 pln"/>
+            Price="2.79"/>
    <Product Name="Łomża Radler" Category="beer" Producent="Van Pur" Volume="75cl"
             Strength="2 percent"
-            Price="2.99 pln"/>
+            Price="2.99"/>
    <Product Name="Śląskie Jasne" Category="beer" Producent="Van Pur" Volume="75cl"
             Strength="5 percent"
-            Price="2.50 pln"/>
+            Price="2.50"/>
    <Authors>
       <Author>Jędrzej Dobrucki</Author>
       <Author>Kamil Celejewski</Author>
@@ -125,6 +125,6 @@
       <Average_Whisky_Price>190.77</Average_Whisky_Price>
       <Average_Beer_Price>3.2</Average_Beer_Price>
       <Average_Absinth_Price>0</Average_Absinth_Price>
-      <RaportDateGeneration>17-12-2018</RaportDateGeneration>
+      <RaportDateGeneration>18-12-2018</RaportDateGeneration>
    </Podsumowanie>
 </AlcoholWholesaleReport>

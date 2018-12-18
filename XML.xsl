@@ -35,7 +35,7 @@
                 </xsl:attribute>
                 <xsl:attribute name="Price">
                     <xsl:variable name="unitId" select="price/@unitId" />
-                    <xsl:value-of select="concat(price,' ',ancestor::*/units/unit[@unitId = $unitId]/@name)"/>
+                    <xsl:value-of select="price"/>
                 </xsl:attribute>
             </xsl:element>
         </xsl:for-each>
