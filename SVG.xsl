@@ -1,4 +1,3 @@
-
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="2.0" xmlns="http://www.w3.org/2000/svg">
 
@@ -16,13 +15,13 @@
 		   		}
 
 
-			function something(evt) {
-    			var pom = evt.target;
-    			var currentSize = pom.getAttribute("font-size");
-    			setInterval(function() {
-    				pom.setAttribute("font-size", getRandomInt(10,50));
-    			}, 100);
-         		}
+            function drowCircle(evt){
+                var rect = evt.target;
+                var currentFill = rect.getAttribute("fill");
+                rect.setAttribute("fill", "#9966ff");
+                pie.
+
+            }
 	  		]]>
             </script>
 
@@ -49,6 +48,18 @@
                 .circe1{
                 fill: #cc3399;
                 stroke: #8f246b;
+                }
+
+                .button{
+                fill: #cc0099;
+                }
+
+                .circle2 {
+                fill: #ddd;
+                stroke: $primaryColor;
+                stroke-width: 50;
+                stroke-dasharray: 0 158;
+                transition: stroke-dasharray .3s ease;
                 }
 
             </style>
@@ -121,6 +132,30 @@
                 <circle cx="15.5cm" cy="10.9cm" r="6"/>
                 <circle cx="17.8cm" cy="17.9cm" r="6"/>
             </g>
+
+            <g class="button" >
+                <rect onclick="drowCircle(evt)" x="2cm" y="21cm" width="3cm" height="1.5cm" rx="10"/>
+                <text x="2.8cm" y="21.9cm" fill="white">Vodka</text>
+                <rect onclick="drowCircle(evt)" x="5.5cm" y="21cm" width="3cm" height="1.5cm" rx="10"/>
+                <text x="5.8cm" y="21.9cm" fill="white">White-Win</text>
+                <rect onclick="drowCircle(evt)" x="9cm" y="21cm" width="3cm" height="1.5cm" rx="10"/>
+                <text x="9.5cm" y="21.9cm" fill="white">Red-Wine</text>
+                <rect onclick="drowCircle(evt)" x="12.5cm" y="21cm" width="3cm" height="1.5cm" rx="10"/>
+                <text x="13.2cm" y="21.9cm" fill="white">Cognac</text>
+                <rect onclick="drowCircle(evt)" x="16cm" y="21cm" width="3cm" height="1.5cm" rx="10"/>
+                <text x="16.8cm" y="21.9cm" fill="white">Whisky</text>
+                <rect onclick="drowCircle(evt)" x="19.5cm" y="21cm" width="3cm" height="1.5cm" rx="10"/>
+                <text x="20.5cm" y="21.9cm" fill="white">Beer</text>
+                <rect onclick="drowCircle(evt)" x="23cm" y="21cm" width="3cm" height="1.5cm"  rx="10"/>
+                <text x="23.7cm" y="21.9cm" fill="white">Absinth</text>
+            </g>
+
+            <g>
+                <circle r="5cm" cx="14cm" cy="30cm" class="pie"/>
+                <path
+            </g>
+
+
         </svg>
     </xsl:template>
 </xsl:stylesheet>
