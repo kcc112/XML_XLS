@@ -152,7 +152,6 @@
 
             <g>
                 <circle r="5cm" cx="14cm" cy="30cm" class="pie"/>
-                <path
             </g>
 
 
