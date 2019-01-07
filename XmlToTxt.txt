@@ -57,4 +57,4 @@
 | Average Beer Price       | 3.2     |
 | Average Absinth Price    | 0       |
 
-DATE: 18-12-2018
+DATE: 07-01-2019

@@ -46,11 +46,6 @@
                 font-weight: 700;
                 font-size: 30;
                 }
-               // .text:hover,
-               // .text:focus {
-               // fill: #ff6600;
-               // }
-
 
                 .label {
                 font-size: 15px;
@@ -92,15 +87,15 @@
 
             <text x="2cm" y="10cm" font-family="Arial" font-size="35" text-decoration="underline" font-weight="700" fill="#33cc33">Alcochol Sums:</text>
 
-            <g>
-                <line x1="3cm" y1="10.9cm" x2="20cm" y2="10.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="11.9cm" x2="20cm" y2="11.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="12.9cm" x2="20cm" y2="12.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="13.9cm" x2="20cm" y2="13.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="14.9cm" x2="20cm" y2="14.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="15.9cm" x2="20cm" y2="15.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="16.9cm" x2="20cm" y2="16.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
-                <line x1="3cm" y1="17.9cm" x2="20cm" y2="17.9cm" style="stroke:rgb(255,0,0);stroke-width:2" />
+            <g style="stroke:rgb(255,0,0);stroke-width:2">
+                <line x1="3cm" y1="10.9cm" x2="20cm" y2="10.9cm"/>
+                <line x1="3cm" y1="11.9cm" x2="20cm" y2="11.9cm"/>
+                <line x1="3cm" y1="12.9cm" x2="20cm" y2="12.9cm"/>
+                <line x1="3cm" y1="13.9cm" x2="20cm" y2="13.9cm"/>
+                <line x1="3cm" y1="14.9cm" x2="20cm" y2="14.9cm"/>
+                <line x1="3cm" y1="15.9cm" x2="20cm" y2="15.9cm"/>
+                <line x1="3cm" y1="16.9cm" x2="20cm" y2="16.9cm"/>
+                <line x1="3cm" y1="17.9cm" x2="20cm" y2="17.9cm"/>
             </g>
 
             <g class="lable">
